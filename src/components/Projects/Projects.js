@@ -2,11 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import bahcode from "../../Assets/Projects/bahcode.png";
+import ve from "../../Assets/Projects/ve.png";
+import millao from "../../Assets/Projects/millao.png";
 import blackbooking from "../../Assets/Projects/blackbooking.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import bbk from "../../Assets/Projects/bbk.png";
+import fahm from "../../Assets/Projects/fahm.png";
+import gw from "../../Assets/Projects/gw.png";
+import waqar from "../../Assets/Projects/waqar.png";
 import worktually from "../../Assets/Projects/worktually.png";
 
 function Projects() {
@@ -27,7 +30,6 @@ function Projects() {
               isBlog={false}
               title="Blackbooking"
               description="Online appointment system for saloon build with MERN Stack and Ant design which allows user to book online appointment in their desired saloon. It is also include multiple type of payment options."
-              // ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://blackbooking.org/"
             />
           </Col>
@@ -38,55 +40,76 @@ function Projects() {
               isBlog={false}
               title="Woktually"
               description="An online platform for online work like freelance marketplace where employers hire employees for different areas of work which is build with React js and Material UI. It also includes payment method."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://app.worktually.com/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={bbk}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Bundu Khan"
+              description="Serving as an advanced online platform, this system empowers customers to conveniently place their orders, indulge in the delightful menu offerings, and experience a seamless dining experience from the comfort of their homes."
+              demoLink="https://order.bkkhandallas.com//"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={gw}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Globewyze Website"
+              description="Globewyze Website developed using React Js to show the portfolio and details of the company Globewyze. Globewyze is AI centric full-service start-up incubator on a mission to launch ventures in the shortest time & least capital."
+              demoLink="https://globewyze.com/home"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={millao}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Millao"
+              description="A Marketplace for Appointment-Based Professionals. Millao is a marketing and online scheduling platform for relationship management and complementary communication that enables customers and providers to jointly administer bookings and subsequent services.              "
+              demoLink="https://book.millao.com/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={fahm}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Fahm Quran"
+              description="Fahm Quran is a webapp developer using React Js. Fahm Qur’an provides Muslims a simple way of searching, learning and comprehending most frequently used Qur’anic words. Each word in the Qur’an holds multiple layers of wisdom. Fahm, developed by WyzerLink; enable readers to transfer this wisdom into their daily lives and helps users become familiar with frequently used words in the Qur’an."
+              demoLink="https://fahmquran.wyzerlink.com/Home"
             />
-          </Col> */}
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bahcode}
+              isBlog={false}
+              title="Bahcode"
+              description="The all-in-one solution for managing your business. Bahcode app and website make it easy to upload products, manage inventory, create coupons, and access analytics. Plus, customers can order products, qualify for coupons, and close transactions with our customer app."
+              demoLink="http://bahcodeapp.com/home"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ve}
+              isBlog={false}
+              title="VE Consultants"
+              description="AVEC  is a consortium of Professional Consulting Engineers specialized in Value Engineering and Multidiscipline Engineering Services. AVEC has SAVE Int’l Registered & Certified Value Engineering Consultants providing pioneer Value Engineering and Value Management Services in Pakistan and Abroad."
+              demoLink="https://veconsultantspk.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={waqar}
+              isBlog={false}
+              title="Waqar Associates"
+              description="Waqar Associates stands out for its commitment to quality, innovation, and timely project completion. Organization leverage the latest construction techniques, advanced technology, and high-quality materials to ensure that our projects are built to the highest standards."
+              demoLink="https://waqarassociates.com/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
